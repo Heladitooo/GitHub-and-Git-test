@@ -1,14 +1,68 @@
+.Home
+{
+
+width: 100vw;
+height: 100vh;
+  display: grid;
+  justify-items: center;
+  align-items: center;
+}
+.container
+{
+  display: grid;
+  justify-items: center;
+  align-items: center;
+  font-size: 444%;
+  font-family: "Roboto thin";
+
+}
+
+h1
+{
+  margin: 0;
+  position: relative;
+  top: -50px;
+}
+.containerButton
+{
+  display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 50px;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    justify-items: center;
+}
+
+.containerButton button
+{
+  font-family: "Roboto thin";
+  color: white;
+  font-size: 44%;
+  width: 288px;
+  height: 288px;
+  border-radius: 58px;
+  background: #343434;
+  border-top: 0;
+  border-left: 0;
+  border-right: solid 10px #7d7d7d;
+  border-bottom: solid 15px #7d7d7d;
+  outline: none;
+  box-shadow: 10px 10px 13px rgba(100,100,100,.6);
+  transition: 1s;
+  transform-origin: right bottom;
+}
+
+.containerButton button:hover
+{
+  transform: scale(1.1);
+  background: #3e3d3d;
+  border-right: solid 15px #7d7d7d;
+  border-bottom: solid 20px #7d7d7d;
+  box-shadow: 15px 15px 13px rgba(100,100,100,.6);
+}
+
 body
 {
   margin: 0;
-  width: 100vw;
-  height: 100vh;
-  background-color: black;
-  overflow: hidden;
-}
-
-.videooo
-{
-  width: 100%;
-  height: auto;
 }
