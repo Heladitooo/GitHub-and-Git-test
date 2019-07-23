@@ -1,8 +1,7 @@
 .Home
 {
 
-width: 100vw;
-height: 100vh;
+height: 96vh;
   display: grid;
   justify-items: center;
   align-items: center;
@@ -65,4 +64,34 @@ h1
 body
 {
   margin: 0;
+  font-family: "Roboto thin";
+
+}
+
+footer
+{
+  background-color: #41403d;
+  font-size: 200%;
+  color: white;
+  display: grid;
+  justify-items: center;
+  box-shadow: 0 0 20px black;
+}
+
+footer h4
+{
+  margin: 1%;
+}
+
+footer img
+{
+  width: 20%;
+  margin-bottom: 2%;
+}
+
+.imgFlecha
+{
+  margin-top: 2px;
+  width: 4%;
+  height: 80%;
 }
