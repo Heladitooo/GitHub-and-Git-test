@@ -5,6 +5,7 @@ height: 96vh;
   display: grid;
   justify-items: center;
   align-items: center;
+  background: #202020
 }
 .container
 {
