@@ -1,5 +1,5 @@
 # Git And Github Test
-estoy aprendiendo a usar esta increible erramienta
+estoy aprendiendo a usar esta increible herramienta
 
 > El cafe con leche es como
 el cafe con leche
