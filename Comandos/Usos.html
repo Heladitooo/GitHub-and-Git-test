@@ -29,9 +29,19 @@ git chekout TAGVIEJO                                    Chekea los antiguos comm
 git checkout master                                     Vuelve a Mater
 git branch RAMA                                         Crea una Rama
 git checkout RAMA                                       Chekea la rama
-git tag -a v0.1 -m "MENSAJE" TAG                           Crea un tag
+git rebase RAMA                                         Fusiona una rama y lo une a la historia como si no hubiera pasado nada
+git tag -a v0.1 -m "MENSAJE" TAG                        Crea un tag
 git tag -d v0.1                                         Elimina un tag
 git push NOMBRE:refs/tags/TAG                           Elimina un tag de gitHub
+
+git stash                                               Guarda y elemina tus cambios temporales
+git stash list                                          Muestra la lista de los stash
+git stash pop                                           Hace el stash
+git stash branch NOMBRE                                 Hace una rama con el stash
+git stash drop                                          Borrar el stash
+
+git clean -f                                            Borra todos los archivos fuera de las estructura
+git clean --dry-run                                     Muestra los archivos que se van a borrae
 
 Master-----o             o-----o-----o
            |             |
