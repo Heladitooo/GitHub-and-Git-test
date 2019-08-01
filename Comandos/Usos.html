@@ -11,12 +11,13 @@ git commit                                              Hace los cambios de una 
 git rm --cached NOMBRE.TXT                              Borrar de git el archivo cuando esta en stage y de la memoria cache de git
 git commit -m "cambioJS"                                Hace un commit con un nombre IMPORTANTE para diferenciar
 git commit -am "cambiosJS"                              Hace un commit y hace el add automaticamente
-git commit --amend                                      Fusiona lo que esta en el stash sin hacer otro commit  
+git commit --amend                                      Fusiona lo que esta en el stash sin hacer otro commit
 git log                                                 Muestra los commits
 git log --oneline                                       Muestra los commits resumidos
 git log --stat                                          Muestra los commits con los cambios
 git log --all                                           Muestra todos los commits LITERALMENTE TODOS
 git log --graph                                         Muestra los commits con ramas de una manera un poco grafica
+git log -S "PALABRA"                                    Muestra cuantas veces as usado esa palabra en los commits
 Q                                                       Para salir del git log
 git show                                                Muestra los cambios entre commits
 git show NOMBRE.TXT                                     Muesta los cambios entre commits y la version
@@ -44,7 +45,11 @@ git stash drop                                          Borrar el stash
 git cherry-pick TAG                                     Fusiona solo un commit a la rama que estes
 
 git clean -f                                            Borra todos los archivos fuera de las estructura
-git clean --dry-run                                     Muestra los archivos que se van a borrae
+git clean --dry-run                                     Muestra los archivos que se van a borrarle
+
+git reflog                                              Muestra todos los commits TODOS Hasta tambien los stash
+git grep -n "PALABRA"                                   busa donde usaste esa palabara en todos tus archivos
+git grep -c "PALABRA"                                   Muestra cuantas veces usaste la palabra
 
 Master-----o             o-----o-----o
            |             |
